@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category    Jworks
+ * @package     Jworks_CheckoutSubscribe
+ * @author Jitheesh V O <jitheeshvo@gmail.com>
+ * @copyright Copyright (c) 2017 Jworks Digital ()
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="data">
+            <action method="setTemplate">
+                <argument name="template" translate="true" xsi:type="string">Jworks_CheckoutSubscribe::order/create/data.phtml</argument>
+            </action>
+        </referenceBlock>
+        <referenceBlock name="order_create_newsletter_form">
+            <action method="setTemplate">
+                <argument name="template" translate="true" xsi:type="string">Jworks_CheckoutSubscribe::order/create/newsletter/form.phtml</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
